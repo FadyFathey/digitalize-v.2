@@ -6,6 +6,14 @@
       "destination": "/html/digitalize/assets/$1"
     },
     {
+      "source": "/about",
+      "destination": "/html/digitalize/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/html/digitalize/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/html/digitalize/index.html"
     }

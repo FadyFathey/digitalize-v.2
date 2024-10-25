@@ -2,7 +2,14 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/html/digitalize/index.html"
+      "destination": "/html/digitalize/index.html",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "text/html"
+        }
+      ]
     }
   ],
   "headers": [

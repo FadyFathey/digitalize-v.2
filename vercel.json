@@ -2,25 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/html/digitalize/index.html",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept",
-          "value": "text/html"
-        }
-      ]
-    }
-  ],
-  "headers": [
-    {
-      "source": "/assets/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
+      "destination": "/html/digitalize/index.html"
     }
   ]
 }

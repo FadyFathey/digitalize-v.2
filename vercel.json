@@ -2,8 +2,44 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/assets/(.*)",
-      "destination": "/html/digitalize/assets/$1"
+      "source": "/about/assets/(.*)",
+      "destination": "/AboutUs/html/digitalize/assets/$1"
+    },
+    {
+      "source": "/contact/assets/(.*)",
+      "destination": "/contact us/html/digitalize/assets/$1"
+    },
+    {
+      "source": "/ourServices/assets/(.*)",
+      "destination": "/ourServices/html/digitalize/assets/$1"
+    },
+    {
+      "source": "/blogs/assets/(.*)",
+      "destination": "/blogs/html/digitalize/assets/$1"
+    },
+    {
+      "source": "/blog-details/assets/(.*)",
+      "destination": "/blogs-details/html/digitalize/assets/$1"
+    },
+    {
+      "source": "/about",
+      "destination": "/AboutUs/html/digitalize/about.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact us/html/digitalize/contact.html"
+    },
+    {
+      "source": "/ourServices",
+      "destination": "/ourServices/html/digitalize/service.html"
+    },
+    {
+      "source": "/blogs",
+      "destination": "/blogs/html/digitalize/blogs.html"
+    },
+    {
+      "source": "/blog-details",
+      "destination": "/blogs-details/html/digitalize/blog-details.html"
     },
     {
       "source": "/(.*)",

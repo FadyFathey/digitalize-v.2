@@ -6,26 +6,6 @@
       "destination": "/html/digitalize/assets/$1"
     },
     {
-      "source": "/about",
-      "destination": "/html/digitalize/index.html"
-    },
-    {
-      "source": "/contact",
-      "destination": "/html/digitalize/index.html"
-    },
-    {
-      "source": "/ourServices",
-      "destination": "/digitalize-v.2/ourServices/html/digitalize/service.html"
-    },
-    {
-      "source": "/blogs",
-      "destination": "/digitalize-v.2/blogs/html/digitalize/blogs.html"
-    },
-    {
-      "source": "/blog-details",
-      "destination": "/digitalize-v.2/blogs-details/html/digitalize/blog-details.html"
-    },
-    {
       "source": "/(.*)",
       "destination": "/html/digitalize/index.html"
     }

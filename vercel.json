@@ -1,8 +1,13 @@
 {
+  "version": 2,
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "html/digitalize/index"
+      "destination": "/html/digitalize/index"
+    },
+    {
+      "source": "/assets/(.*)", 
+      "destination": "/html/digitalize/assets/$1"
     }
   ],
   "cleanUrls": true,
